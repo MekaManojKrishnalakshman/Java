@@ -8,8 +8,14 @@ public class Datatypes {
         char Gender='M';
         String s="Manoj";
         boolean student=true;
-        System.out.println(age);
-        System.out.println(roll);
+        System.out.println("Age" +age);
+        System.out.println("ROLL" +roll);
+        System.out.println("Admin" +admissionno);
+        System.out.println("ATTENDANCE" +attendance);
+        System.out.println("PERCENTAGE" +percentage);
+        System.out.println("GEN" +Gender);
+        System.out.println("Ss" +s);
+        System.out.println("STUDENT" +student);
 
     }
     
