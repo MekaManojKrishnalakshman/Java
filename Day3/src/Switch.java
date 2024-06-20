@@ -7,21 +7,23 @@ public class Switch {
         int day =sc.nextInt();
         switch (day) {
             case 1:
-                dayname="Monday";
-                break;
+            dayname="Monday";
+            break;
             case 2:
-                 dayname="Tuesday";
-                 break;
+            dayname="Tuesday";
+            break;
             case 3:
-                 dayname="Wednesday";
-                 break;     
+            dayname="Wednesday";
+            break;     
 
         
             default:
-                dayname="Invalid Day";
-                break;
+            dayname="Invalid Day";
+            break;
         }
+        System.out.println("The Day is:" +dayname);
         
     }
     
 }
+
